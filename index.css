@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.164),rgba(66, 66, 66, 0.233)), url('image/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: antiquewhite;
+    position: relative;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    padding: 35px 0;
+}
+
+.navbar .logo {
+    margin-top: -60px;
+    width: 200px;
+    float: left;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    margin-top: -600px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: large;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    margin-top: 250px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.search-container {
+    margin-top: 20px;
+}
+
+.search-input {
+    width: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 20px 20px 0;
+    background: linear-gradient(135deg, #f77d7d, #ffa69a);
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.destinations {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fc9b9b6c;
+}
+
+.destination-container {
+    text-align: center;
+}
+
+.destination {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    text-align: left;
+   
+}
+
+.destination img {
+    width: 100%;
+    height: 500px;
+}
+.destinations h2{
+    font-size: 28px;
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f77d7d;
+    
+}
+.destinations p{
+    
+    font-size: 18px;
+    margin: 5px 0;
+    font-style: oblique;
+    
+}
+
+.destination h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f77d7d;
+    
+}
+
+.destination h4 {
+    font-size: 20px;
+    margin: 5px 0;
+    font-weight: bold;
+    font-style: oblique;
+    
+}
+
+.destination p {
+    font-size: 16px;
+    margin: 10px 0;
+    font-style: oblique;
+}
+
+.read-more {
+    background-color: #f77d7d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.contact-form {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffe3e3d8;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    
+}
+
+.contact-form p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f77d7d;
+}
+
+.contact-form form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form select {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.contact-form button {
+    background-color:#f77d7d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
